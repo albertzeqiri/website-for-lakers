@@ -1,2 +1,2 @@
-# FirstProject
+# First Project
 Website for Lakers
