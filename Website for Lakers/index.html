@@ -77,11 +77,11 @@
     <!--Main-->
     <main>
       <!--Match Live-->
-      <section class="containerMatch">
+      <section class="matchContainer">
         <div class="match">
           <div class="match-header">
-            <p class="match-status">Live</p>
-            <h4 class="match-tournament">
+            <p id="match-status">Live</p>
+            <h4 id="match-tournament">
               <img
                 src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/National_Basketball_Association_logo.svg/158px-National_Basketball_Association_logo.svg.png"
               />NBA Finals
@@ -96,20 +96,20 @@
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/375px-Los_Angeles_Lakers_logo.svg.png"
                   />
                 </div>
-                <h2 class="team-name">Lakers</h2>
+                <h2 id="team-name">Lakers</h2>
               </div>
             </div>
 
             <div class="match-column">
               <div class="match-details">
-                <p class="match-date">3 December <strong>17:30</strong></p>
+                <p id="match-date">3 December <strong>17:30</strong></p>
                 <div class="match-score">
-                  <p class="match-score-number">15</p>
-                  <p class="match-score-divider">:</p>
-                  <p class="match-score-number">11</p>
+                  <p id="match-score-number">15</p>
+                  <p id="match-score-divider">:</p>
+                  <p id="match-score-number">11</p>
                 </div>
-                <p class="match-time-lapsed">18'</p>
-                <p class="match-referee">Referee: <strong>Pat</strong></p>
+                <p id="match-time-lapsed">18'</p>
+                <p id="match-referee">Referee: <strong>Pat</strong></p>
               </div>
             </div>
 
@@ -120,7 +120,7 @@
                     src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Chicago_Bulls_logo.svg/300px-Chicago_Bulls_logo.svg.png"
                   />
                 </div>
-                <h2 class="team-name">Bulls</h2>
+                <h2 id="team-name">Bulls</h2>
               </div>
             </div>
           </div>
@@ -128,7 +128,7 @@
       </section>
 
       <!--Latest News-->
-      <section class="news">
+      <section class="newsContainer">
         <img
           src="https://cdn.nba.com/manage/2022/09/lebron-westbrook-davis.jpg"
           alt="news"
@@ -144,8 +144,8 @@
       </section>
 
       <!--Vote and Watch Lakers-->
-      <section class="vote-and-watch">
-        <div class="image-with-text">
+      <section class="vote-and-watchContainer">
+        <div class="image-vote-and-watch">
           <img
             src="https://cdn.nba.com/teams/uploads/sites/1610612747/2023/12/2324_lal_mktg_allstar_launch_1328x784_v1_mv.jpg"
             alt="votelakers"
@@ -163,7 +163,7 @@
           </button>
         </div>
 
-        <div class="image-with-text">
+        <div class="image-vote-and-watch">
           <img
             src="https://cdn.nba.com/teams/uploads/sites/1610612747/2023/12/2324_lal_mktg_ssn_batch2_1328x784.jpg"
             alt="watchlakers"
@@ -181,7 +181,7 @@
       </section>
 
       <!--Latest Videos-->
-      <section class="latest-videos">
+      <section class="latest-videosContainer">
         <div class="video-container">
           <h1>Latest Videos</h1>
           <video width="900px" height="500px" controls>
@@ -193,8 +193,8 @@
       </section>
 
       <!--Lakers Shop-->
-      <section class="lakers-shop">
-        <div class="lakers-style-shop">
+      <section class="lakers-shopContainer">
+        <div class="lakers-shop">
           <img
             src="https://cdn.nba.com/teams/uploads/sites/1610612747/2023/07/MENS-1384-%C3%97-784-px.png?imwidth=1384&imheight=784"
             alt="menslakers"
@@ -208,7 +208,7 @@
           </button>
         </div>
 
-        <div class="lakers-style-shop">
+        <div class="lakers-shop">
           <img
             src="https://cdn.nba.com/teams/uploads/sites/1610612747/2023/07/WOMENS-1384-%C3%97-784-px.png?imwidth=1384&imheight=784"
             alt="womenslakers"
@@ -222,7 +222,7 @@
           </button>
         </div>
 
-        <div class="lakers-style-shop">
+        <div class="lakers-shop">
           <img
             src="https://cdn.nba.com/teams/uploads/sites/1610612747/2023/07/YOUTH-1384-%C3%97-784-px.png?imwidth=1384&imheight=784"
             alt="youthlakers"
@@ -238,7 +238,7 @@
       </section>
 
       <!--Plays and Tickets-->
-      <section class="plays-and-tickets-container">
+      <section class="plays-and-ticketsContainer">
         <div class="plays-and-tickets">
           <img
             src="https://cdn.nba.com/teams/uploads/sites/1610612747/2023/12/Lakers-All-Access-2024-Final-1328x784-1.jpg"
@@ -276,8 +276,8 @@
 
     <!--Footer-->
     <footer>
-      <div class="footerContainer">
-        <div class="socialIcons">
+      <section class="footerContainer">
+        <div class="socialIconsFooter">
           <a href="https://www.facebook.com/losangeleslakers" target="_blank"
             ><i class="fa-brands fa-facebook"></i
           ></a>
@@ -296,7 +296,7 @@
             ><i class="fa-brands fa-snapchat"></i
           ></a>
         </div>
-        <div class="footerNav">
+        <nav class="footerNav">
           <ul>
             <li>
               <a href="https://www.nba.com/lakers/news?ls=nav_news"
@@ -316,8 +316,8 @@
             </li>
             <li><a href="https://preferences.la-lakers.com/">Contact Us</a></li>
           </ul>
-        </div>
-      </div>
+        </nav>
+      </section>
       <p id="footerBottom">
         Copyright &copy;2023 NBA Media Ventures, LLC. All rights reserved.
         <br />
