@@ -89,7 +89,7 @@ main {
 
 /* Match Live */
 
-.containerMatch {
+.matchContainer {
   width: 97%;
   margin-left: 20px;
   align-items: center;
@@ -111,7 +111,7 @@ main {
   color: white;
 }
 
-.match-status {
+#match-status {
   background-color: white;
   opacity: 0.9;
   color: red;
@@ -134,7 +134,7 @@ main {
   }
 }
 
-.match-tournament {
+#match-tournament {
   display: flex;
   align-items: center;
   font-weight: 600;
@@ -168,12 +168,12 @@ main {
   }
 }
 
-.team-name {
+#team-name {
   text-align: center;
   margin-top: 24px;
   font-size: 20px;
   font-weight: 600;
-  color: black;
+  color: white;
 }
 
 .match-details {
@@ -182,7 +182,7 @@ main {
   align-items: center;
 }
 
-.match-date {
+#match-date {
   font-size: 14px;
   color: white;
 }
@@ -194,14 +194,14 @@ main {
   color: white;
 }
 
-.match-score-number {
+#match-score-number {
   font-size: 48px;
   font-weight: 600;
   line-height: 1;
   color: white;
 }
 
-.match-score-divider {
+#match-score-divider {
   font-size: 28px;
   font-weight: 700;
   margin-left: 10px;
@@ -209,7 +209,7 @@ main {
   color: white;
 }
 
-.match-time-lapsed {
+#match-time-lapsed {
   font-size: 14px;
   font-weight: 600;
   margin-top: 8px;
@@ -218,23 +218,23 @@ main {
 
 /* Latest News */
 
-.news {
+.newsContainer {
   margin-top: 25px;
   font-family: interextrabold;
   text-transform: uppercase;
 }
 
-.news img {
+.newsContainer img {
   width: 100%;
   height: 100%;
 }
 
-.news a {
-  color: white;
+.newsContainer a {
+  color: black;
   text-decoration: none;
 }
 
-.news a:hover {
+.newsContainer a:hover {
   color: orange;
 }
 
@@ -249,28 +249,28 @@ main {
 
 /* Vote and Watch Lakers */
 
-.vote-and-watch {
+.vote-and-watchContainer {
   display: flex;
   justify-content: space-around;
   margin-top: 150px;
 }
 
-.image-with-text img {
+.image-vote-and-watch img {
   width: 600px;
   height: 350px;
 }
 
-.image-with-text h2 {
+.image-vote-and-watch h2 {
   margin-top: 20px;
   font-family: interextrabold;
 }
 
-.image-with-text p {
+.image-vote-and-watch p {
   margin-top: 20px;
   font-family: interlight;
 }
 
-.image-with-text button {
+.image-vote-and-watch button {
   margin-top: 20px;
   border-radius: 10px;
   background-color: #232323;
@@ -279,30 +279,30 @@ main {
   padding: 12px 24px;
 }
 
-.image-with-text button a {
+.image-vote-and-watch button a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-family: interextrabold;
 }
 
-.image-with-text button a:hover {
+.image-vote-and-watch button a:hover {
   color: orange;
 }
 
 /* Latest Videos */
 
-.latest-videos {
+.latest-videosContainer {
   margin-top: 120px;
   background-color: #232323;
   height: 650px;
 }
 
-.latest-videos .video-container {
+.latest-videosContainer .video-container {
   position: relative;
 }
 
-.latest-videos h1 {
+.latest-videosContainer h1 {
   text-transform: uppercase;
   font-family: interextrabold;
   color: white;
@@ -312,25 +312,25 @@ main {
   position: absolute;
 }
 
-.latest-videos video {
+.latest-videosContainer video {
   margin-top: 50px;
   margin-left: 400px;
 }
 
 /* Lakers Shop */
 
-.lakers-shop {
+.lakers-shopContainer {
   margin-top: 100px;
   display: flex;
 }
 
-.lakers-style-shop img {
+.lakers-shop img {
   width: 350px;
   height: 200px;
   margin-left: 45px;
 }
 
-.lakers-style-shop button {
+.lakers-shop button {
   margin-top: 20px;
   border-radius: 10px;
   background-color: #232323;
@@ -340,20 +340,20 @@ main {
   margin-left: 100px;
 }
 
-.lakers-style-shop button a {
+.lakers-shop button a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-family: interextrabold;
 }
 
-.lakers-style-shop button a:hover {
+.lakers-shop button a:hover {
   color: orange;
 }
 
 /* Plays and Tickets */
 
-.plays-and-tickets-container {
+.plays-and-ticketsContainer {
   display: flex;
   justify-content: space-around;
   margin-top: 170px;
@@ -371,6 +371,7 @@ main {
 .plays-and-tickets h2 {
   margin-top: 20px;
   font-family: interextrabold;
+  color: white;
 }
 
 .plays-and-tickets p {
@@ -401,7 +402,7 @@ main {
 
 /* Footer */
 
-footer {
+footer{
   background-color: #232323;
 }
 
@@ -439,12 +440,12 @@ footer {
   font-family: interlight;
 }
 
-.socialIcons {
+.socialIconsFooter {
   display: flex;
   justify-content: center;
 }
 
-.socialIcons a {
+.socialIconsFooter a {
   text-decoration: none;
   padding: 10px;
   background-color: white;
@@ -454,16 +455,16 @@ footer {
   height: 50px;
 }
 
-.socialIcons a i {
+.socialIconsFooter a i {
   font-size: 2em;
   color: black;
   opacity: 0.9;
 }
 
-.socialIcons a:hover {
+.socialIconsFooter a:hover {
   background-color: #111;
 }
 
-.socialIcons a:hover i {
+.socialIconsFooter a:hover i {
   color: white;
 }
