@@ -216,6 +216,10 @@ main {
   color: red;
 }
 
+#match-referee {
+  color: white;
+}
+
 /* Latest News */
 
 .newsContainer {
@@ -402,7 +406,7 @@ main {
 
 /* Footer */
 
-footer{
+footer {
   background-color: #232323;
 }
 
