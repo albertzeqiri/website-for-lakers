@@ -1,4 +1,4 @@
 # First Project
 Website for Lakers
 
-Link : www.lakers-clone.netlify.app
+Link : https://lakers-clone.netlify.app/
