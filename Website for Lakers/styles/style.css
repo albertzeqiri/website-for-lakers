@@ -71,9 +71,7 @@ header a img {
 }
 
 .socialIconsHeader a {
-  text-decoration: none;
   margin: 5px;
-  border-radius: 50%;
 }
 
 .socialIconsHeader a i {
@@ -97,14 +95,11 @@ main {
 .matchContainer {
   width: 97%;
   margin-left: 20px;
-  align-items: center;
 }
 
 .match {
   background-image: url(https://t4.ftcdn.net/jpg/03/06/22/13/360_F_306221381_hT611gyYaBpiuD0VCV33s74sdggUcSKA.jpg);
   background-size: cover;
-  display: flex;
-  flex-direction: column;
   min-height: 350px;
   font-family: interbold;
   border-radius: 20px;
@@ -120,20 +115,17 @@ main {
   background-color: white;
   opacity: 0.9;
   color: red;
-  padding: 8px 12px;
+  padding: 7px 12px;
   border-radius: 6px;
-  font-weight: 600;
   font-size: 14px;
   display: flex;
   align-items: center;
-  line-height: 1;
   margin-right: auto;
   &:before {
     content: "";
-    display: block;
     width: 6px;
     height: 6px;
-    background-color: currentColor;
+    background-color: red;
     border-radius: 50%;
     margin-right: 8px;
   }
@@ -143,15 +135,15 @@ main {
   display: flex;
   align-items: center;
   font-weight: 600;
-  img {
-    width: 20px;
-    margin-right: 12px;
-  }
+}
+
+#match-tournament img {
+  width: 20px;
+  margin-right: 12px;
 }
 
 .match-content {
   display: flex;
-  position: relative;
 }
 
 .match-column {
@@ -168,16 +160,16 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  img {
-    width: 130px;
-  }
+}
+
+.team-logo img {
+  width: 130px;
 }
 
 #team-name {
   text-align: center;
   margin-top: 24px;
   font-size: 20px;
-  font-weight: 600;
   color: white;
 }
 
@@ -193,22 +185,19 @@ main {
 }
 
 .match-score {
-  margin-top: 12px;
   display: flex;
+  margin-top: 12px;
   align-items: center;
   color: white;
 }
 
 #match-score-number {
   font-size: 48px;
-  font-weight: 600;
-  line-height: 1;
   color: white;
 }
 
 #match-score-divider {
   font-size: 28px;
-  font-weight: 700;
   margin-left: 10px;
   margin-right: 10px;
   color: white;
@@ -216,8 +205,8 @@ main {
 
 #match-time-lapsed {
   font-size: 14px;
-  font-weight: 600;
   margin-top: 8px;
+  margin-bottom: 5px;
   color: red;
 }
 
@@ -250,7 +239,7 @@ main {
 .news-text {
   position: absolute;
   top: 125%;
-  right: 45%;
+  right: 50%;
   text-align: center;
   color: white;
   font-size: 30px;
@@ -259,9 +248,9 @@ main {
 /* Vote and Watch Lakers */
 
 .vote-and-watchContainer {
+  margin-top: 150px;
   display: flex;
   justify-content: space-around;
-  margin-top: 150px;
 }
 
 .image-vote-and-watch img {
@@ -280,10 +269,9 @@ main {
 }
 
 .image-vote-and-watch button {
-  margin-top: 20px;
   border-radius: 10px;
+  margin-top: 20px;
   background-color: #232323;
-  border: none;
   font-size: 17px;
   padding: 12px 24px;
 }
@@ -307,10 +295,6 @@ main {
   height: 650px;
 }
 
-.latest-videosContainer .video-container {
-  position: relative;
-}
-
 .latest-videosContainer h1 {
   text-transform: uppercase;
   font-family: interextrabold;
@@ -323,7 +307,7 @@ main {
 
 .latest-videosContainer video {
   margin-top: 50px;
-  margin-left: 400px;
+  margin-left: 25em;
 }
 
 /* Lakers Shop */
@@ -343,10 +327,9 @@ main {
   margin-top: 20px;
   border-radius: 10px;
   background-color: #232323;
-  border: none;
   font-size: 17px;
   padding: 12px 24px;
-  margin-left: 100px;
+  margin-left: 6em;
 }
 
 .lakers-shop button a {
@@ -367,7 +350,7 @@ main {
   justify-content: space-around;
   margin-top: 170px;
   background-color: #232323;
-  height: 700px;
+  height: 45em;
   text-align: center;
 }
 
@@ -393,7 +376,6 @@ main {
   margin-top: 20px;
   border-radius: 10px;
   background-color: #111;
-  border: none;
   font-size: 17px;
   padding: 12px 24px;
 }
@@ -421,7 +403,7 @@ footer {
 }
 
 .footerNav {
-  margin: 30px 0;
+  margin: 30px;
 }
 
 .footerNav ul {
